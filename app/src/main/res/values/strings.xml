@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meal Calculator</string>
+    <string name="sayeed_label">Sayeed</string>
+    <string name="saklain_label">Saklain</string>
+    <string name="shishir_label">Shishir</string>
+    <string name="farhan_label">Farhan</string>
+    <string name="bazar_hint">Enter Bazar Expense</string>
+    <string name="meals_hint">Enter Meals Count</string>
+    <string name="utility_hint">Enter Utility Expense</string>
+    <string name="calculate_button">Calculate</string>
+</resources>
