@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mealcalculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- ✅ Required Permissions -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:6:22-77
+13
+14    <!-- ⚠️ WRITE_EXTERNAL_STORAGE is deprecated in Android 10+ -->
+15    <uses-permission
+15-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:9:5-10:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:9:22-78
+17        android:maxSdkVersion="28" />
+17-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:10:9-35
+18
+19    <permission
+19-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.mealcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.mealcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:12:5-42:19
+26        android:allowBackup="true"
+26-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.0] /home/orange/.gradle/caches/transforms-4/f4a25eb178310fc8f72f5c01fbdd1be7/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:15:9-43
+30        android:label="@string/app_name"
+30-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:16:9-41
+31        android:requestLegacyExternalStorage="true"
+31-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:13:9-52
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:18:9-35
+34        android:theme="@style/Theme.MealCalculator" >
+34-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:19:9-52
+35        <activity
+35-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:22:9-29:20
+36            android:name="com.example.mealcalculator.MainActivity"
+36-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:23:13-41
+37            android:exported="true" >
+37-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:24:13-36
+38            <intent-filter>
+38-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:25:13-28:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:26:17-69
+39-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:26:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:27:17-77
+41-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:27:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <!-- ✅ FileProvider Configuration for Sharing Screenshots -->
+46        <provider
+47            android:name="androidx.core.content.FileProvider"
+47-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:33:13-62
+48            android:authorities="com.example.mealcalculator.provider"
+48-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:34:13-60
+49            android:exported="false"
+49-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:35:13-37
+50            android:grantUriPermissions="true" >
+50-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:36:13-47
+51            <meta-data
+51-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:37:13-39:53
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:38:17-67
+53                android:resource="@xml/file_paths" />
+53-->/home/orange/AndroidStudioProjects/MealCalculator/app/src/main/AndroidManifest.xml:39:17-51
+54        </provider>
+55        <provider
+55-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.mealcalculator.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.3.0] /home/orange/.gradle/caches/transforms-4/65113a6ffae8e4f8bd6a9e3c946ee3d5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/orange/.gradle/caches/transforms-4/1456a651d5b2ddf801974ad073428bc1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/orange/.gradle/caches/transforms-4/1456a651d5b2ddf801974ad073428bc1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/orange/.gradle/caches/transforms-4/1456a651d5b2ddf801974ad073428bc1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+68        </provider>
+69
+70        <receiver
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+72            android:directBootAware="false"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+73            android:enabled="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+74            android:exported="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+75            android:permission="android.permission.DUMP" >
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/orange/.gradle/caches/transforms-4/ad7390cba44597e342278fcd948434ab/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Meal Calculator</string>
+    <string name="bazar_hint">Enter Bazar Expense</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="farhan_label">Farhan</string>
+    <string name="meals_hint">Enter Meals Count</string>
+    <string name="saklain_label">Saklain</string>
+    <string name="sayeed_label">Sayeed</string>
+    <string name="shishir_label">Shishir</string>
+    <string name="utility_hint">Enter Utility Expense</string>
+    <style name="Base.Theme.MealCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MealCalculator" parent="Base.Theme.MealCalculator"/>
+</resources>

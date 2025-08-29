@@ -1,0 +1,3 @@
+com.example.mealcalculator.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

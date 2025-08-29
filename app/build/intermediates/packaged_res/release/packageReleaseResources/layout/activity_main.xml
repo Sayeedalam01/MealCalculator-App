@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Calculator"
+            android:textColor="#1B5E20"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#81C784"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Person Entry Blocks -->
+
+        <!-- Sayeed -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sayeed"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/bazar_sayeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bazar (Sayeed)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/meals_sayeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meals (Sayeed)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/utility_sayeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Utility (Sayeed)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <!-- Saklain -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saklain"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/bazar_saklain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bazar (Saklain)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/meals_saklain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meals (Saklain)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/utility_saklain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Utility (Saklain)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <!-- Shishir -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shishir"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/bazar_shishir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bazar (Shishir)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/meals_shishir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meals (Shishir)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/utility_shishir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Utility (Shishir)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <!-- Farhan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farhan"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/bazar_farhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bazar (Farhan)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/meals_farhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meals (Farhan)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/utility_farhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Utility (Farhan)"
+            android:background="#C8E6C9"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/calculate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textStyle="bold"
+            android:background="#388E3C"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Result as PDF"
+            android:textStyle="bold"
+            android:background="#0288D1"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <!-- Results -->
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/total_bazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/total_utility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/meal_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/total_meals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Footer Texts -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#81C784"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/balance_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/generated_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generated by Sayeed.\nকোনো ভুল থাকলে আমি দায়ি না। হিসাব করার দায়িত্ব তোমার।"
+            android:textColor="#2E7D32"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

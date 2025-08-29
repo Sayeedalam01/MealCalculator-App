@@ -1,0 +1,5 @@
+com.example.mealcalculator.test.app-core-1.6.1-0 /home/orange/.gradle/caches/transforms-4/e80b697f3f6379b647d1bda19c174e5c/transformed/core-1.6.1/res
+com.example.mealcalculator.test.app-androidTest-1 /home/orange/AndroidStudioProjects/MealCalculator/app/build/generated/res/resValues/androidTest/debug
+com.example.mealcalculator.test.app-mergeDebugAndroidTestResources-2 /home/orange/AndroidStudioProjects/MealCalculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.mealcalculator.test.app-mergeDebugAndroidTestResources-3 /home/orange/AndroidStudioProjects/MealCalculator/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.mealcalculator.test.app-debugAndroidTest-4 /home/orange/AndroidStudioProjects/MealCalculator/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
