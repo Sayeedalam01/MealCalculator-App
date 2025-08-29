@@ -28,10 +28,9 @@ Whether you live in a **hostel, shared apartment, or bachelor mess**, this app m
 
 ---
 
-## 📱 Screenshots  
-*(Add screenshots here once available)*  
+## 📱 Screenshots   
 
-```md
+
 ![Meal Calculator Screenshot 1](screenshots/sc0.png)
 ![Meal Calculator Screenshot 2](screenshots/sc1.png)
 ![Meal Calculator Screenshot 2](screenshots/sc2.png)
